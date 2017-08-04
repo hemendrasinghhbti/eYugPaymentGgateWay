@@ -1,0 +1,10 @@
+framework module eYugPaymentGateway {
+  umbrella header "eYugPaymentGateway.h"
+
+  export *
+  module * { export * }
+}
+
+module eYugPaymentGateway.Swift {
+    header "eYugPaymentGateway-Swift.h"
+}
